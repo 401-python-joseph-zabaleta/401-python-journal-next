@@ -1,44 +1,44 @@
-# Basic CSS example
+# Lab: Class 44 - Getting Stylish
 
-Next.js ships with [styled-jsx](https://github.com/zeit/styled-jsx) allowing you to write scope styled components with full css support. This is important for the modularity and code size of your bundles and also for the learning curve of the framework. If you know css you can write styled-jsx right away.
+## Open Git Pull Requests  
 
-## Deploy your own
 
-Deploy the example using [Vercel](https://vercel.com):
+## Overview  
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/vercel/next.js/tree/canary/examples/basic-css)
+React/NextJS web applications handle things differently than web apps of the past. But that doesan’t mean they still can’t look good.
 
-## How to use
+It’s time to add some style to our components.
 
-[Try it on CodeSandbox](https://codesandbox.io/s/github/vercel/next.js/tree/canary/examples/basic-css)
+## Feature Tasks and Requirements  
 
-### Using `create-next-app`
+- [] Modify your existing NextJS client app to style it with Sass.
+- [] The style you add can be “hand rolled” without the use of additional styling libraries. But you can also leverage other tools if you like.
+- [] Go live.
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+## Implementation Notes:  
+- [] You won’t be graded on how “good” it looks, but on your use of Sass thoughout the app.
+  - In other words, you want to add color to your app, the exact colors you choose is up to you.
+  - But do your best to have it look good.
 
-```bash
-npx create-next-app --example basic-css basic-css-app
-# or
-yarn create next-app --example basic-css basic-css-app
-```
+## User Acceptance Tests  
 
-### Download manually
+- [] No automated tests. But application must be deployed.
 
-Download the example:
+## Dependencies  
 
-```bash
-curl https://codeload.github.com/vercel/next.js/tar.gz/canary | tar -xz --strip=2 next.js-canary/examples/basic-css
-cd basic-css
-```
+## Authors  
+- Software Developer: Joseph Zabaleta
+  - [Official Github](https://github.com/joseph-zabaleta)  
 
-Install it and run:
+## Collaborations  
+- none  
 
-```bash
-npm install
-npm run dev
-# or
-yarn
-yarn dev
-```
+## License  
+This project is under the MIT License.
 
-Deploy it to the cloud with [Vercel](https://vercel.com/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+## Acknowledgements / Resources  
+- none
+
+## Version History  
+- 1.0.0 20200709  
+    - Initial files created.  
