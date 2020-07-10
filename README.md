@@ -2,6 +2,7 @@
 
 ## Open Git Pull Requests  
 
+[https://github.com/joseph-zabaleta/journal-next/pull/1](https://github.com/joseph-zabaleta/journal-next/pull/1)  
 
 ## Overview  
 
