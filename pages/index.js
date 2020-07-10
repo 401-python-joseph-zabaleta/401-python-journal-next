@@ -1,19 +1,29 @@
-export default function Home() {
+
+
+
+const url = 'https://drf-snacks-api.herokuapp.com/api/v1/snacks/';
+
+
+
+
+export default function Home(props) {
   return (
-    <div className="hello">
-      <p>Hello World</p>
-      <style jsx>{`
-        .hello {
-          font: 15px Helvetica, Arial, sans-serif;
-          background: #eee;
-          padding: 100px;
-          text-align: center;
-          transition: 100ms ease-in background;
-        }
-        .hello:hover {
-          background: #ccc;
-        }
-      `}</style>
+    <div className="container">
+      <p>Hello this is my front end!</p>
+      <p>{props.snacks.length}</p>
     </div>
   )
+}
+
+export async function getServerSideProps() {
+
+  const response = await fetch(url);
+  const data = await response.json();
+
+  return {
+    props: {
+      snacks: data,
+    }
+  }
+
 }
